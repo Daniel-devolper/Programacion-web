@@ -1,0 +1,135 @@
+body{
+    background-image: url(/numeroMagico/imagenes/dados.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+            
+}
+
+.container{
+   width: 50%;
+   height: auto;
+   display: flex;
+   background-color: #687175ec; 
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 155px;
+   border-radius: 10px;
+   box-shadow: -.5px 2px 15px 4px white;
+   border: 3px solid white;
+}
+
+.container-reglas{
+    width: 50%;
+    height: 250px;
+    /*background-color: coral;*/
+    margin-left: 5px;
+    position: relative;
+    bottom: 20px;
+}
+
+.container-validacion{
+    width: 30%;
+    height: 5px;
+    /*background-color: cornflowerblue;*/
+    align-self: flex-end;
+    position: relative;
+    bottom: 110px;
+    right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.titulo-principal{
+    align-self: center;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+}
+
+.reglas-titulo{
+    margin-left: 10px;
+    font-size: 2rem;
+    position: relative;
+    bottom: 45px;
+    font-family: 'Lobster', cursive;
+}
+
+.reglas-parrafo{
+    position: relative;
+    bottom: 80px;
+    padding: 10px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.01rem;
+}
+
+.parrafo-item{
+    position: relative;
+    bottom: 100px;
+    padding-left: 10px;
+}
+
+span{
+    font-family: 'Lobster', cursive;
+}
+
+.label{
+    align-self: center;
+    position: relative;
+    bottom: 100px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.label span{
+    margin-left: 45px;
+}
+
+.input{
+    border-radius: 6px;
+    margin-left: 25px;
+}
+
+.boton{
+    width: 90px;
+    height: auto;
+    align-self: center;
+    /*margin-bottom: auto;*/
+    position: relative;
+    bottom: 90px;
+    font-family: 'Lobster', cursive;
+    border-radius: 5px;
+}
+
+.btn-r{
+    margin-left: 20px;
+}
+
+.cont-reloj{
+    /*margin-left: 100px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50px;
+    width: 12%;
+    border: 3px solid #fff;
+    background-color: #687175ec; 
+    /*box-shadow: -13px -13px 13px #fff, 15px 15px 15px rgba(13, 39, 80, .26), inset -13px -13px 13px #fff, inset 15px 15px 15px rgba(13, 39, 80, .26);*/
+    border-radius: 13px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 847px;
+    top: 162px;
+}
+
+.reloj{
+    font-size: 1.3rem;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.datos{
+    font-size: 1em;
+    font-family: 'Londrina Solid', cursive ;
+}

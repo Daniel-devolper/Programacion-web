@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Magico</title>
+    <link rel="stylesheet" href="/numeroMagico/css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="cont-reloj">
+        <div class="reloj" id="reloj"></div>
+        <div class="datos">
+            <span id="fec-datos"></span>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <h1 class="titulo-principal">Número Mágico</h1>
+        
+        <div class="container-reglas"> 
+            <h2 class="reglas-titulo">Instrucciones</h2>
+            <p class="reglas-parrafo"> <span> Adivinar un Numero del 1 al 1000:</span> 
+                <p class="parrafo-item"> 1. Escribir un numero. </p>
+                <p class="parrafo-item"> 2. el sistema lo va a validar...Y decir una pista
+                Pista: Es mayor, o Es Menor...O lo Lograste!
+                </p>
+               <p class="parrafo-item"> 3. solo tienes máximo hasta 10 intentos.</p>
+                
+               <p class="parrafo-item"> 4.si no Lograste adivinar...El sistema te dirá cuál es el numero
+                y comenzará otro juego (generará otro numero aleatorio). </p>
+            </p>
+        </div>
+            
+        <div class="container-validacion">
+                <label class="label" for="numero">
+                       <span> Ingrese su numero</span>
+                    <input type="number" class="input" id="numero">
+                </label>
+                <!--<input type="submit" value="Validar" class="boton" id="boton">-->
+                <button class="boton" id="boton">Validar</button>
+                <button type="reset" class="boton btn-r" id="botonR">Nuevo juego</button>
+            </div>
+           <!-- <div class="resultados">
+                <p id="resultado"></p>
+                <p id="altoBajo"></p>
+            </div>-->
+
+    </div>
+
+    <script src="/numeroMagico/scripts/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!--Sweet alert-->
+    <script src="/numeroMagico/scripts/reloj.js"></script>
+</body>
+</html>
