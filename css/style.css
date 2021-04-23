@@ -90,6 +90,21 @@ span{
     margin-left: 25px;
 }
 
+.input-name{
+    position: relative;
+    bottom: 40px;
+}
+
+.span{
+    position: relative;
+    bottom: 40px;
+}
+
+.btn-name{
+    position: relative !important;
+    bottom: 130px !important;
+    left: 50px !important;
+}
 .boton{
     width: 90px;
     height: auto;

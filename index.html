@@ -42,23 +42,24 @@
         </div>
             
         <div class="container-validacion">
-                <label class="label" for="numero">
+
+            <label class="label" for="nombre">
+                <span class="span"> Ingrese su nombre</span>
+             <input type="text" class="input input-name" id="nombre" >
+             </label>    
+             <button class="boton btn-name" id="boton-nombre">Ingresar</button>
+                
+             <label class="label" for="numero">
                        <span> Ingrese su numero</span>
                     <input type="number" class="input" id="numero">
                 </label>
-                <!--<input type="submit" value="Validar" class="boton" id="boton">-->
                 <button class="boton" id="boton">Validar</button>
                 <button type="reset" class="boton btn-r" id="botonR">Nuevo juego</button>
             </div>
-           <!-- <div class="resultados">
-                <p id="resultado"></p>
-                <p id="altoBajo"></p>
-            </div>-->
-
     </div>
 
     <script src="scripts/script.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!--Sweet alert-->
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!--Sweet alert-->
     <script src="scripts/reloj.js"></script>
 </body>
 </html>
